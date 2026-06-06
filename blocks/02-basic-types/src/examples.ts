@@ -1,5 +1,6 @@
 // Block 02 — Basic Types: worked examples
 // Run me:  npx tsx blocks/02-basic-types/src/examples.ts
+export {}; // make this a module so top-level names don't clash globally
 
 // Primitives
 const title: string = "TypeScript";

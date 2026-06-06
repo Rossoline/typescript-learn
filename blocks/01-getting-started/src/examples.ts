@@ -1,5 +1,6 @@
 // Block 01 — Getting Started: worked examples
 // Run me:  npx tsx blocks/01-getting-started/src/examples.ts
+export {}; // make this a module so top-level names don't clash globally
 
 // 1. Type inference — TypeScript figures out the type from the value.
 let count = 5; // inferred: number

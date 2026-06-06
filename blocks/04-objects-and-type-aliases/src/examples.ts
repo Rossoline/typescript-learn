@@ -1,5 +1,6 @@
 // Block 04 — Objects & Type Aliases: worked examples
 // Run me:  npx tsx blocks/04-objects-and-type-aliases/src/examples.ts
+export {}; // make this a module so top-level names don't clash globally
 
 // 1. type alias for an object shape, with optional + readonly properties.
 type Point = {

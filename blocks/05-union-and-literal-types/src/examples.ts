@@ -1,5 +1,6 @@
 // Block 05 — Union & Literal Types: worked examples
 // Run me:  npx tsx blocks/05-union-and-literal-types/src/examples.ts
+export {}; // make this a module so top-level names don't clash globally
 
 // 1. Union: a value that is either a string or a number.
 function formatId(id: string | number): string {

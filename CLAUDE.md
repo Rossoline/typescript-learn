@@ -78,8 +78,8 @@ Type-level `it("has the right types")` should pass immediately (it checks signat
 - `tsconfig.json` is strict, incl. `noUncheckedIndexedAccess` and `noUnusedParameters`.
   Indexing an array yields `T | undefined`; use `!` (with a comment) where you've
   guaranteed presence, as in block 02's `firstAndLast`.
-- `lib` includes `DOM`, so global types like `Plugin`, `Event`, `Location`, `name`
-  exist. A file that declares an `interface`/type with such a name **and isn't a
-  module** (no `import`/`export`) will merge with the global and fail to typecheck.
-  `src/exercises.ts` and `solutions/*.ts` are modules (they export), so they're safe;
-  add `export {};` to an `examples.ts` if it declares clashing names (see block 06).
+- **Always start `examples.ts` with `export {};`** so it's a module. Otherwise it's a
+  global script: its top-level type/class names clash both with DOM globals (`Plugin`,
+  `Event`, `name`, …) and with identically-named declarations in *other* blocks'
+  examples (e.g. two `User` types). `src/exercises.ts` and `solutions/*.ts` already
+  export, so they're modules and safe.

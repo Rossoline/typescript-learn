@@ -1,5 +1,6 @@
 // Block 03 — Functions: worked examples
 // Run me:  npx tsx blocks/03-functions/src/examples.ts
+export {}; // make this a module so top-level names don't clash globally
 
 // 1. Parameter & return annotations.
 function clamp(value: number, min: number, max: number): number {
