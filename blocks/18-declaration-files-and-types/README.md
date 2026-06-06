@@ -1,5 +1,7 @@
 # Block 18 — Declaration Files & @types
 
+**English** · [Українська](./README.uk.md)
+
 A `.d.ts` file contains **types only** — no runtime code. It's how TypeScript learns
 the shape of JavaScript it can't see into: compiled libraries, untyped npm packages,
 or a plain `.js` file in your own project.

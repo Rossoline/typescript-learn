@@ -1,5 +1,7 @@
 # Block 17 — Error Handling & Result Types
 
+**English** · [Українська](./README.uk.md)
+
 Two complementary ways to deal with failure: idiomatic `try/catch`, and the typed
 `Result` pattern that makes failure part of the return type.
 

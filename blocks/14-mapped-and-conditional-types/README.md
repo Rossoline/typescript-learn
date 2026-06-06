@@ -1,5 +1,7 @@
 # Block 14 — Mapped & Conditional Types
 
+**English** · [Українська](./README.uk.md)
+
 This is where you build your *own* type transformations — the machinery behind the
 utility types from block 12.
 

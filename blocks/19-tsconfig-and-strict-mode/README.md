@@ -1,5 +1,7 @@
 # Block 19 — tsconfig & strict mode
 
+**English** · [Українська](./README.uk.md)
+
 `tsconfig.json` controls how strict the compiler is. This repo runs with strict settings
 on purpose — here you learn what each one buys you by writing code that satisfies them.
 

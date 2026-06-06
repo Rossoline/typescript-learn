@@ -1,5 +1,7 @@
 # Block 16 — Async & Promises
 
+**English** · [Українська](./README.uk.md)
+
 Async code is everywhere; TypeScript types it through `Promise<T>` and `async`/`await`.
 
 ## `Promise<T>` and `async`/`await`

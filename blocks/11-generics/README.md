@@ -1,5 +1,7 @@
 # Block 11 — Generics
 
+**English** · [Українська](./README.uk.md)
+
 Generics let a function, class, or type work over *any* type while keeping the
 relationship between inputs and outputs. They're how you write reusable code without
 falling back to `any`.

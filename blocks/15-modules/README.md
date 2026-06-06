@@ -1,5 +1,7 @@
 # Block 15 — Modules
 
+**English** · [Українська](./README.uk.md)
+
 Real projects are split across files. ES modules are how those files share code with
 explicit `import`/`export` — and TypeScript adds *type-only* imports on top.
 

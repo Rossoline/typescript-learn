@@ -1,5 +1,7 @@
 # Block 20 — Capstone Project
 
+**English** · [Українська](./README.uk.md)
+
 Bring it all together: a small **typed task-manager library**, built from modules, with
 no exceptions thrown across its public API.
 
